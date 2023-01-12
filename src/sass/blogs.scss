@@ -1,0 +1,27 @@
+
+.blogs {
+    margin-top: 2rem;
+
+    .blogs__title h4 {
+        font-weight: 400;
+    }
+
+    .blogs__blog {
+        img {
+            margin-bottom: 1rem;
+        }
+        span {
+            font-size: .9rem;
+            color: #dddddd;
+        }
+        h2 {
+            margin: 2rem 0 .5rem 0;
+        }
+        a {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #2F80ED;
+            font-size: .85rem;
+        }
+    }
+}

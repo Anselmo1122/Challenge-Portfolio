@@ -1,0 +1,24 @@
+.blogs {
+  margin-top: 2rem;
+}
+.blogs .blogs__title h4 {
+  font-weight: 400;
+}
+.blogs .blogs__blog img {
+  margin-bottom: 1rem;
+}
+.blogs .blogs__blog span {
+  font-size: 0.9rem;
+  color: #dddddd;
+}
+.blogs .blogs__blog h2 {
+  margin: 2rem 0 0.5rem 0;
+}
+.blogs .blogs__blog a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #2F80ED;
+  font-size: 0.85rem;
+}
+
+/*# sourceMappingURL=blogs.css.map */

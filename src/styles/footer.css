@@ -1,0 +1,12 @@
+.footer {
+  margin: 5rem 0 1rem 0;
+  text-align: center;
+  color: rgba(143, 143, 143, 0.6705882353);
+}
+
+.username a {
+  font-weight: 700;
+  color: rgba(143, 143, 143, 0.6705882353);
+}
+
+/*# sourceMappingURL=footer.css.map */

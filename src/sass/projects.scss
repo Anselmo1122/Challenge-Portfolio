@@ -1,0 +1,39 @@
+
+.projects {
+    .projects__title h4 {
+        font-weight: 400;
+    }
+    .projects__project {
+
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
+
+        .project {
+
+            max-width: 350px;
+            h5 {
+                padding-top: .4rem;
+                span {
+                    margin-right: .6rem;
+                }
+            }
+            .project__description {
+                font-size: .9rem;
+                padding-bottom: 2rem;
+            }
+            .project__button-primary {
+                margin-right: 1rem;
+                background: #2F80ED;
+                a {
+                    color: #ffffff;
+                }
+            }
+            .project__button-secondary {
+                a {
+                    color: #2F80ED;
+                }
+            }
+        }
+    }
+}

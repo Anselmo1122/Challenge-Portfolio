@@ -1,0 +1,33 @@
+.projects .projects__title h4 {
+  font-weight: 400;
+}
+.projects .projects__project {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.5rem;
+}
+.projects .projects__project .project {
+  max-width: 350px;
+}
+.projects .projects__project .project h5 {
+  padding-top: 0.4rem;
+}
+.projects .projects__project .project h5 span {
+  margin-right: 0.6rem;
+}
+.projects .projects__project .project .project__description {
+  font-size: 0.9rem;
+  padding-bottom: 2rem;
+}
+.projects .projects__project .project .project__button-primary {
+  margin-right: 1rem;
+  background: #2F80ED;
+}
+.projects .projects__project .project .project__button-primary a {
+  color: #ffffff;
+}
+.projects .projects__project .project .project__button-secondary a {
+  color: #2F80ED;
+}
+
+/*# sourceMappingURL=projects.css.map */

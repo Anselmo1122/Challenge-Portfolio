@@ -1,0 +1,26 @@
+
+.hobbies {
+    margin-top: 2rem;
+
+    .hobbies__title {
+        margin-bottom: 1rem;
+    }
+
+    .hobbies__hobbie {
+        margin-bottom: 2.5rem;
+
+        img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+        }
+
+        h4 {
+            margin-top: 1rem;
+        }
+
+        p {
+            margin-top: .5rem;
+        }
+    }
+}

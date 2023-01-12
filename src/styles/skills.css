@@ -1,0 +1,34 @@
+.skills {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.skills .skills__list .list__title {
+  padding-bottom: 0.6rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.skills .skills__list .list__skills li {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.skills .skills__list .list__skills li p {
+  font-size: 0.9rem;
+  width: 35%;
+}
+.skills .skills__list .list__skills li div {
+  flex-grow: 1;
+  height: 0.5rem;
+  background: #c7c7c7;
+  display: flex;
+}
+.skills .skills__list .list__skills li div span {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  background: #2F80ED;
+}
+
+/*# sourceMappingURL=skills.css.map */
