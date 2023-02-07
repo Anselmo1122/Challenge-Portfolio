@@ -18,4 +18,11 @@
   font-weight: 700;
 }
 
+@media only screen and (min-width: 1200px) {
+  .experiences {
+    max-width: 321px;
+    margin-top: 0;
+  }
+}
+
 /*# sourceMappingURL=Experiences.css.map */

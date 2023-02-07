@@ -6,7 +6,7 @@ import hobbieImg3 from "../assets/images/biking.jpg";
 
 const Hobbies = () => {
   return (
-    <article className='hobbies'>
+    <article className='hobbies grid__item"'>
       <h2 className='hobbies__title'>Hobbies</h2>
       <div className='hobbies__hobbie'>
         <img src={ hobbieImg1 } alt="Gaming" />

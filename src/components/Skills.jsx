@@ -3,7 +3,7 @@ import "../styles/skills.css";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills grid__item">
       <article className="skills__list">
         <h3 className="list__title">Front End</h3>
         <ul className="list__skills">

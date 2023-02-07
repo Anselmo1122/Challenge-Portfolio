@@ -10,12 +10,14 @@ import './styles/App.css';
 function App() {
   return (
     <div className="App">
-      <Profile />
-      <Skills />
-      <Projects />
-      <Experiences />
-      <Hobbies />
-      <Blogs />
+      <section className='App__grid'>
+        <Profile />
+        <Skills />
+        <Projects />
+        <Experiences />
+        <Hobbies />
+        <Blogs />
+      </section>
       <Footer />
     </div>
   );

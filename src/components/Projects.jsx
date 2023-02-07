@@ -26,7 +26,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects grid__item">
       <article className="projects__title">
         <h4>Projects ({ projects.length })</h4>
       </article>

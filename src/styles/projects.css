@@ -7,7 +7,7 @@
   column-gap: 1.5rem;
 }
 .projects .projects__project .project {
-  max-width: 350px;
+  max-width: 280px;
 }
 .projects .projects__project .project h5 {
   padding-top: 0.4rem;
@@ -28,6 +28,18 @@
 }
 .projects .projects__project .project .project__button-secondary a {
   color: #2F80ED;
+}
+
+@media only screen and (min-width: 1200px) {
+  .projects__project img {
+    object-fit: cover;
+    width: 40%;
+    max-height: 290px;
+  }
+  .projects__project .project {
+    max-width: 100%;
+    height: 90px;
+  }
 }
 
 /*# sourceMappingURL=projects.css.map */

@@ -6,7 +6,7 @@ import { HiPhone } from "react-icons/hi";
 
 const Profile = () => {
   return (
-    <article className="profile">
+    <article className="profile grid__item">
       <img src={profile} alt="person" />
       <h1 className="profile__title">Stella Flores</h1>
       <span className="profile__specialty">Front-end developer</span>

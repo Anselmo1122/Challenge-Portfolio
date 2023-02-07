@@ -1,5 +1,6 @@
 .hobbies {
   margin-top: 2rem;
+  grid-column: 1/2;
 }
 .hobbies .hobbies__title {
   margin-bottom: 1rem;
@@ -17,6 +18,12 @@
 }
 .hobbies .hobbies__hobbie p {
   margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .hobbies {
+    max-width: 320px;
+  }
 }
 
 /*# sourceMappingURL=hobbies.css.map */

@@ -11,7 +11,7 @@
 
         .project {
 
-            max-width: 350px;
+            max-width: 280px;
             h5 {
                 padding-top: .4rem;
                 span {
@@ -34,6 +34,22 @@
                     color: #2F80ED;
                 }
             }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .projects__project {
+        img {
+            object-fit: cover;
+            width: 40%;
+            max-height: 290px;
+        }
+        
+        .project {
+            max-width: 100%;
+            height: 90px;
         }
     }
 }

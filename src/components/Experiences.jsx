@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Experiences.css";
+import "../styles/experiences.css";
 import experienceImg1 from "../assets/images/adidasLogo.png";
 import experienceImg2 from "../assets/images/niveaLogo.png";
 import experienceImg3 from "../assets/images/appleLogo.png";
@@ -32,7 +32,7 @@ const experiences = [
 
 const Experiences = () => {
   return (
-    <article className="experiences">
+    <article className="experiences grid__item">
       <h2 className="experiences__title">Experiences</h2>
       {
         experiences.map((experience, id)=>{
