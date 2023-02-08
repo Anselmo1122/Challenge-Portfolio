@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/hobbies.css";
+import "../index.scss";
 import hobbieImg1 from "../assets/images/gaming.jpg";
 import hobbieImg2 from "../assets/images/cooking.jpg";
 import hobbieImg3 from "../assets/images/biking.jpg";

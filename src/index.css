@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+.App {
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+@media only screen and (min-width: 1200px) {
+  .App__grid {
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 280px 350px 350px 40px 340px;
+    grid-auto-rows: 300px;
+    gap: 1rem;
+    align-items: start;
+  }
+  .grid__item:nth-child(2) {
+    max-width: 100%;
+    flex-direction: row;
+    grid-column: 2/4;
+  }
+  .grid__item:nth-child(1) {
+    grid-row: 1/3;
+  }
+  .grid__item:nth-child(3) {
+    grid-column: 2/4;
+  }
+  .grid__item:nth-child(4) {
+    grid-column: 1/2;
+    grid-row: 3/5;
+  }
+  .grid__item:nth-child(6) {
+    grid-column: 2/4;
+    grid-row: 6/7;
+  }
+}
+.blogs {
+  margin-top: 2rem;
+}
+.blogs .blogs__title h4 {
+  font-weight: 400;
+}
+.blogs .blogs__blog img {
+  margin-bottom: 1rem;
+}
+.blogs .blogs__blog span {
+  font-size: 0.9rem;
+  color: #dddddd;
+}
+.blogs .blogs__blog h2 {
+  margin: 2rem 0 0.5rem 0;
+}
+.blogs .blogs__blog a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #2F80ED;
+  font-size: 0.85rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .blogs__blog {
+    height: 340px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .blogs__blog img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 700px;
+    max-width: 50%;
+  }
+}
+.experiences {
+  margin-top: 2rem;
+}
+.experiences .experiences__title {
+  margin-bottom: 2rem;
+}
+.experiences .experiences__experience {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: flex-start;
+  -moz-column-gap: 1.4rem;
+       column-gap: 1.4rem;
+}
+.experiences .experiences__experience img {
+  width: 90px;
+}
+.experiences .experiences__experience .experience__description h5 {
+  margin: 0.5rem 0;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 1200px) {
+  .experiences {
+    max-width: 321px;
+    margin-top: 0;
+  }
+}
+.footer {
+  margin: 5rem 0 1rem 0;
+  text-align: center;
+  color: rgba(143, 143, 143, 0.6705882353);
+}
+
+.username a {
+  font-weight: 700;
+  color: rgba(143, 143, 143, 0.6705882353);
+}
+
+.hobbies {
+  margin-top: 2rem;
+  grid-column: 1/2;
+}
+.hobbies .hobbies__title {
+  margin-bottom: 1rem;
+}
+.hobbies .hobbies__hobbie {
+  margin-bottom: 2.5rem;
+}
+.hobbies .hobbies__hobbie img {
+  width: 100%;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hobbies .hobbies__hobbie h4 {
+  margin-top: 1rem;
+}
+.hobbies .hobbies__hobbie p {
+  margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .hobbies {
+    max-width: 320px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: #4f4f4f;
+}
+
+body {
+  background: #eee;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #7c7c7c;
+  font-size: 0.9rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+h5 {
+  color: #000000;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+article {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px #dadada;
+}
+
+button {
+  padding: 0.5rem 1.8rem;
+  color: #2F80ED;
+  border: none;
+  border: 1px solid #2F80ED;
+  border-radius: 9px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* ========== Breakpoints ========== */
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.profile {
+  width: 100%;
+  max-width: 320px;
+}
+.profile img {
+  margin-bottom: 1rem;
+}
+.profile .profile__title {
+  padding: 0.1rem 0;
+  font-size: 1.3rem;
+}
+.profile .profile__specialty {
+  display: inline-block;
+  margin-bottom: 1.6rem;
+  font-size: 1rem;
+}
+.profile .profile__contact {
+  margin-bottom: 1.6rem;
+}
+.profile .profile__contact .contact__item {
+  padding: 0.2rem 0;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 0.7rem;
+       column-gap: 0.7rem;
+  font-size: 0.9rem;
+}
+.profile .profile__contact .contact__item .icon {
+  font-size: 1.1rem;
+}
+.profile .profile__description {
+  font-size: 0.9rem;
+}
+
+.projects .projects__title h4 {
+  font-weight: 400;
+}
+.projects .projects__project {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+.projects .projects__project .project {
+  max-width: 280px;
+}
+.projects .projects__project .project h5 {
+  padding-top: 0.4rem;
+}
+.projects .projects__project .project h5 span {
+  margin-right: 0.6rem;
+}
+.projects .projects__project .project .project__description {
+  font-size: 0.9rem;
+  padding-bottom: 2rem;
+}
+.projects .projects__project .project .project__button-primary {
+  margin-right: 1rem;
+  background: #2F80ED;
+}
+.projects .projects__project .project .project__button-primary a {
+  color: #ffffff;
+}
+.projects .projects__project .project .project__button-secondary a {
+  color: #2F80ED;
+}
+
+@media only screen and (min-width: 1200px) {
+  .projects__project img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 40%;
+    max-height: 290px;
+  }
+  .projects__project .project {
+    max-width: 100%;
+    height: 90px;
+  }
+}
+.skills {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.skills .skills__list .list__title {
+  padding-bottom: 0.6rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.skills .skills__list .list__skills li {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.skills .skills__list .list__skills li p {
+  font-size: 0.9rem;
+  width: 35%;
+}
+.skills .skills__list .list__skills li div {
+  flex-grow: 1;
+  height: 0.5rem;
+  background: #c7c7c7;
+  display: flex;
+}
+.skills .skills__list .list__skills li div span {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  background: #2F80ED;
+}
+
+@media only screen and (min-width: 1200px) {
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .skills .skills__list {
+    width: 50%;
+  }
+  .skills .skills__list:first-child {
+    margin-right: 1.5rem;
+  }
+}/*# sourceMappingURL=index.css.map */

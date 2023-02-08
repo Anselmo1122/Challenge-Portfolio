@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/experiences.css";
+import "../index.scss";
 import experienceImg1 from "../assets/images/adidasLogo.png";
 import experienceImg2 from "../assets/images/niveaLogo.png";
 import experienceImg3 from "../assets/images/appleLogo.png";

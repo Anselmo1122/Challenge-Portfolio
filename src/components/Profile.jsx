@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/profile.css"
+import "../index.scss"
 import profile from "../assets/images/person.jpg";
 import { IoMdMail } from "react-icons/io";
 import { HiPhone } from "react-icons/hi";

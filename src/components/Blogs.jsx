@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/blogs.css";
+import "../index.scss";
 import blogImg1 from "../assets/images/computer.jpg";
 
 const Blogs = () => {
